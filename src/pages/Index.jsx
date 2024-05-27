@@ -4,7 +4,7 @@ import { Link as RouterLink } from "react-router-dom";
 const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
-      <Flex as="nav" bg="gray.800" color="white" p={4} justifyContent="space-between" alignItems="center">
+      <Flex as="nav" bg="#004E7C" color="white" p={4} justifyContent="space-between" alignItems="center">
         <Heading as="h1" size="lg">
           Financial Times
         </Heading>
@@ -27,7 +27,7 @@ const Index = () => {
         </Flex>
       </Flex>
 
-      <Box p={4}>
+      <Box p={4} bg="#F3F2F1">
         <VStack spacing={8} align="stretch">
           <Box>
             <Image src="https://via.placeholder.com/1200x400" alt="Main article image" />
